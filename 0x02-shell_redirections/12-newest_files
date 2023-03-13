@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Art | head -n 12
+ls -Art | head -n 10
