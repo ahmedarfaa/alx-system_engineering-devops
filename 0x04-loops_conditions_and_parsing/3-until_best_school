@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#this file is useing for loop to print best school 10 times
+#this file is useing until loop to print best school 10 times
 i=1
 until [ $i -gt 10 ]
 do
-    echo "best shool"
+    echo "Best Shool"
     ((i++))
 done
