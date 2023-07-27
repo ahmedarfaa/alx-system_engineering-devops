@@ -3,6 +3,6 @@
 i=1
 until [ $i -gt 10 ]
 do
-    echo "Best Shool"
+    echo "Best School"
     ((i++))
 done
