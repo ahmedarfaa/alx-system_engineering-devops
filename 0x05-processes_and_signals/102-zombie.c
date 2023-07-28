@@ -3,10 +3,10 @@
 #include <unistd.h>
 
 /**
- * infinite_while - loop to make the program hang
+ * infini_loop - loop to make the program hang
  * Return: always 0
  */
-int infinite_while(void)
+int infini_loop(void)
 {
 	while (1)
 	{
@@ -33,6 +33,6 @@ int main(void)
 		printf("Zombie process created, PID: %d\n", zombie);
 	}
 
-	infinite_while();
+	infini_loop();
 	return (0);
 }
