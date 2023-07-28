@@ -3,20 +3,6 @@
 #include <unistd.h>
 
 /**
- * infini_loop - loop to make the program hang
- * Return: always 0
- */
-int infini_loop(void)
-{
-	while (1)
-	{
-		sleep(1);
-	}
-	return (0);
-}
-
-
-/**
  * main - initiating 5 zombie processes
  * Return: 0
  */
@@ -33,6 +19,9 @@ int main(void)
 		printf("Zombie process created, PID: %d\n", zombie);
 	}
 
-	infini_loop();
+	while (1)
+	{
+		sleep(1);
+	}
 	return (0);
 }
