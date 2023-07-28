@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this file is to kill the file 7-highlander..
+
+pkill -f 7-highlander

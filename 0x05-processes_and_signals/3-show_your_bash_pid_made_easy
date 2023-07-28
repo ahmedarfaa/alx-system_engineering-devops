@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#this script for printing all processes containing bash word
+#+ not allowed to use ps
+
+pgrep -l bash
