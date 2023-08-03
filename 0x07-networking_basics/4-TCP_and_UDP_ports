@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# cript Displays listening sockets with PID & name of the program to which each socket belongs
+netstat -lp
